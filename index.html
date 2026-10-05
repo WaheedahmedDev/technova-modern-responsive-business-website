@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="TechNova - Innovative Software Solutions for your business">
+    <title>TechNova | Modern Software Solutions</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress-container">
+        <div class="scroll-progress-bar" id="scroll-progress"></div>
+    </div>
+
+    <!-- Header & Navigation -->
+    <header class="header" id="header">
+        <nav class="navbar container">
+            <a href="#" class="logo">
+                <span class="logo-icon">▲</span> TechNova
+            </a>
+
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#features" class="nav-link">Features</a></li>
+                    <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+                    <li class="nav-item"><a href="#faq" class="nav-link">FAQ</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <button class="btn btn-primary nav-cta">Get Started</button>
+            </div>
+
+            <!-- Mobile Menu Toggle -->
+            <div class="nav-toggle" id="nav-toggle" aria-label="Toggle Menu" role="button" tabindex="0">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero section">
+            <div class="container grid hero-container">
+                <div class="hero-content reveal">
+                    <h1 class="hero-title">Empower Your Business with <span>TechNova</span></h1>
+                    <p class="hero-description">We build scalable, high-performance software solutions to help your business thrive in the digital age. Start your journey with us today.</p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary">Start Free Trial</a>
+                        <a href="#about" class="btn btn-outline">Learn More</a>
+                    </div>
+                </div>
+                <div class="hero-illustration reveal reveal-right">
+                    <!-- Placeholder for illustration -->
+                    <div class="illustration-placeholder">
+                        <svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" aria-label="Hero Illustration">
+                            <rect width="400" height="300" rx="20" fill="var(--color-primary-light)" opacity="0.1"/>
+                            <circle cx="200" cy="150" r="80" fill="var(--color-primary)" opacity="0.8"/>
+                            <path d="M150,150 L250,150 L200,80 Z" fill="var(--color-secondary)" opacity="0.9"/>
+                            <rect x="180" y="160" width="40" height="40" rx="5" fill="var(--color-accent)"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section bg-light">
+            <div class="container grid about-container">
+                <div class="about-image reveal reveal-left">
+                     <div class="illustration-placeholder">
+                        <svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" aria-label="About Us Illustration">
+                            <rect width="400" height="300" rx="20" fill="var(--color-secondary-light)" opacity="0.1"/>
+                            <rect x="50" y="50" width="300" height="200" rx="10" fill="var(--color-secondary)" opacity="0.8"/>
+                            <circle cx="100" cy="100" r="20" fill="var(--color-white)"/>
+                            <rect x="140" y="90" width="150" height="20" rx="5" fill="var(--color-white)"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="about-content reveal">
+                    <h2 class="section-title">Who We Are</h2>
+                    <h3 class="section-subtitle">Driving Innovation Through Technology</h3>
+                    <p class="about-text">At TechNova, we believe in the transformative power of technology. Our mission is to provide businesses with the tools they need to succeed in a rapidly evolving digital landscape. With a team of dedicated experts, we deliver software that is both powerful and user-friendly.</p>
+                    <ul class="about-list">
+                        <li><span class="icon">✓</span> Expert Development Team</li>
+                        <li><span class="icon">✓</span> Client-Centric Approach</li>
+                        <li><span class="icon">✓</span> Cutting-Edge Technologies</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="features section">
+            <div class="container">
+                <div class="section-header reveal">
+                    <h2 class="section-title">Core Features</h2>
+                    <p class="section-description">Discover the powerful features that make TechNova the right choice for your business infrastructure.</p>
+                </div>
+
+                <div class="grid features-grid">
+                    <!-- Feature Card 1 -->
+                    <div class="feature-card reveal">
+                        <div class="feature-icon" aria-hidden="true">🚀</div>
+                        <h3 class="feature-title">High Performance</h3>
+                        <p class="feature-text">Experience lightning-fast speeds and optimized performance, ensuring your operations never slow down.</p>
+                    </div>
+                    <!-- Feature Card 2 -->
+                    <div class="feature-card reveal" style="transition-delay: 0.1s;">
+                        <div class="feature-icon" aria-hidden="true">🛡️</div>
+                        <h3 class="feature-title">Secure Data</h3>
+                        <p class="feature-text">Enterprise-grade security protocols keep your sensitive information safe from any unauthorized access.</p>
+                    </div>
+                    <!-- Feature Card 3 -->
+                    <div class="feature-card reveal" style="transition-delay: 0.2s;">
+                        <div class="feature-icon" aria-hidden="true">🔄</div>
+                        <h3 class="feature-title">Seamless Integration</h3>
+                        <p class="feature-text">Easily integrate with your existing tools and workflows without skipping a beat.</p>
+                    </div>
+                    <!-- Feature Card 4 -->
+                    <div class="feature-card reveal" style="transition-delay: 0.3s;">
+                        <div class="feature-icon" aria-hidden="true">📱</div>
+                        <h3 class="feature-title">Fully Responsive</h3>
+                        <p class="feature-text">Designed to work flawlessly across all devices, from desktop monitors to mobile phones.</p>
+                    </div>
+                    <!-- Feature Card 5 -->
+                    <div class="feature-card reveal" style="transition-delay: 0.4s;">
+                        <div class="feature-icon" aria-hidden="true">📈</div>
+                        <h3 class="feature-title">Analytics Dashboard</h3>
+                        <p class="feature-text">Gain actionable insights with our comprehensive, easy-to-read analytics and reporting tools.</p>
+                    </div>
+                    <!-- Feature Card 6 -->
+                    <div class="feature-card reveal" style="transition-delay: 0.5s;">
+                        <div class="feature-icon" aria-hidden="true">🎧</div>
+                        <h3 class="feature-title">24/7 Support</h3>
+                        <p class="feature-text">Our dedicated support team is available around the clock to assist you with any questions.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="services section bg-light">
+            <div class="container">
+                <div class="section-header reveal">
+                    <h2 class="section-title">Our Services</h2>
+                    <p class="section-description">We offer tailored solutions designed to meet the specific needs of modern enterprises.</p>
+                </div>
+
+                <div class="grid services-grid">
+                    <!-- Service 1 -->
+                    <div class="service-card reveal">
+                        <div class="service-content">
+                            <h3 class="service-title">Web Development</h3>
+                            <p class="service-text">Custom web applications built with modern frameworks, ensuring scalability and robust performance.</p>
+                            <a href="#" class="service-link">Learn More <span aria-hidden="true">→</span></a>
+                        </div>
+                    </div>
+                    <!-- Service 2 -->
+                    <div class="service-card reveal" style="transition-delay: 0.1s;">
+                        <div class="service-content">
+                            <h3 class="service-title">Cloud Infrastructure</h3>
+                            <p class="service-text">Secure and scalable cloud solutions that adapt to your business growth and storage requirements.</p>
+                            <a href="#" class="service-link">Learn More <span aria-hidden="true">→</span></a>
+                        </div>
+                    </div>
+                    <!-- Service 3 -->
+                    <div class="service-card reveal" style="transition-delay: 0.2s;">
+                        <div class="service-content">
+                            <h3 class="service-title">UI/UX Design</h3>
+                            <p class="service-text">User-centered design experiences that increase engagement and maximize conversion rates.</p>
+                            <a href="#" class="service-link">Learn More <span aria-hidden="true">→</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Statistics Section -->
+        <section class="statistics section" aria-label="Company Statistics">
+            <div class="container">
+                <div class="grid stats-grid">
+                    <div class="stat-item reveal">
+                        <div class="stat-number" data-target="1500">0</div>
+                        <p class="stat-text">Happy Clients</p>
+                    </div>
+                    <div class="stat-item reveal">
+                        <div class="stat-number" data-target="320">0</div>
+                        <p class="stat-text">Projects Completed</p>
+                    </div>
+                    <div class="stat-item reveal">
+                        <div class="stat-number" data-target="45">0</div>
+                        <p class="stat-text">Awards Won</p>
+                    </div>
+                    <div class="stat-item reveal">
+                        <div class="stat-number" data-target="99">0</div>
+                        <div class="stat-suffix">%</div>
+                        <p class="stat-text">Client Retention</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials -->
+        <section class="testimonials section bg-light">
+            <div class="container">
+                 <div class="section-header reveal">
+                    <h2 class="section-title">What Our Clients Say</h2>
+                </div>
+                <div class="grid testimonials-grid">
+                    <div class="testimonial-card reveal">
+                        <div class="quote-icon" aria-hidden="true">❝</div>
+                        <p class="testimonial-text">"TechNova has completely transformed our workflow. The software is intuitive, fast, and the support team is incredible."</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar" aria-hidden="true">S</div>
+                            <div class="author-info">
+                                <h4>Sarah Ahmed</h4>
+                                <span>CEO, StartupInc</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card reveal" style="transition-delay: 0.1s;">
+                        <div class="quote-icon" aria-hidden="true">❝</div>
+                        <p class="testimonial-text">"We saw a 40% increase in productivity within the first month of integrating TechNova into our daily operations."</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar" aria-hidden="true">W</div>
+                            <div class="author-info">
+                                <h4>waheed Ahmed </h4>
+                                <span>CTO, GlobalTech</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section id="faq" class="faq section">
+            <div class="container">
+                <div class="section-header reveal">
+                    <h2 class="section-title">Frequently Asked Questions</h2>
+                    <p class="section-description">Find answers to common questions about our platform and services.</p>
+                </div>
+                <div class="faq-container reveal">
+                    <div class="accordion-item">
+                        <button class="accordion-header" aria-expanded="false">
+                            What makes TechNova different?
+                            <span class="accordion-icon" aria-hidden="true">+</span>
+                        </button>
+                        <div class="accordion-content">
+                            <p>We focus on delivering enterprise-level solutions with the ease-of-use of consumer software. Our platform is built from the ground up to be scalable and secure without compromising on user experience.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button class="accordion-header" aria-expanded="false">
+                            How long does it take to implement?
+                            <span class="accordion-icon" aria-hidden="true">+</span>
+                        </button>
+                        <div class="accordion-content">
+                            <p>Most clients are up and running within a week. Complex integrations might take slightly longer, but our dedicated onboarding team ensures a smooth transition.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button class="accordion-header" aria-expanded="false">
+                            Do you offer custom pricing?
+                            <span class="accordion-icon" aria-hidden="true">+</span>
+                        </button>
+                        <div class="accordion-content">
+                            <p>Yes! We understand that every business has unique needs. Contact our sales team to discuss an enterprise plan tailored to your specific requirements.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section bg-light">
+            <div class="container grid contact-grid">
+                <div class="contact-info reveal">
+                    <h2 class="section-title">Get in Touch</h2>
+                    <p class="contact-description">Ready to elevate your business? Reach out to our team today. We're here to answer your questions and help you get started.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <span class="contact-icon" aria-hidden="true">📍</span>
+                            <p>123 Innovation Drive, Tech City, TC 10101</p>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon" aria-hidden="true">✉️</span>
+                            <p>hello@technova.com</p>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon" aria-hidden="true">📞</span>
+                            <p>+201221968553</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-container reveal reveal-right">
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required placeholder="waheed ahmad mohamed mahmoud ">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required placeholder="waheed@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="How can we help you?"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container grid footer-grid">
+            <div class="footer-brand">
+                <a href="#" class="logo footer-logo">
+                    <span class="logo-icon">▲</span> TechNova
+                </a>
+                <p class="footer-description">Building the software infrastructure for tomorrow's leading enterprises.</p>
+                
+                
+                
+                
+                
+                
+                
+                <div class="social-links">
+                    <!-- GitHub -->
+                    <a href="https://github.com/WaheedahmedDev" target="_blank" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    
+                    <!-- LinkedIn -->
+                    <a href="www.linkedin.com/in/waheed-ahmed2076" target="_blank" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <!-- WhatsApp -->
+                    <a href="https://wa.me/201221968553" target="_blank" aria-label="WhatsApp">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+
+
+                    <!-- Facebook (Link or Mail) -->
+                    <a href="https://www.facebook.com/share/1Dzb3GEGx6/" target="_blank" aria-label="Facebook">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+            <div class="footer-links-group">
+                <h4 class="footer-heading">Company</h4>
+                <ul class="footer-links">
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+             <div class="footer-links-group">
+                <h4 class="footer-heading">Product</h4>
+                <ul class="footer-links">
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Documentation</a></li>
+                </ul>
+            </div>
+             <div class="footer-links-group">
+                <h4 class="footer-heading">Legal</h4>
+                <ul class="footer-links">
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Cookie Policy</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2026 TechNova. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top" id="back-to-top" aria-label="Back to top">
+        ↑
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
